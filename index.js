@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5000
 
 
 
-const CONNECTION_URL = "mongodb+srv://admin:admin@stack-overflow-clone.3gi35lw.mongodb.net/?retryWrites=true&w=majority&appName=stack-overflow-clone"
+const CONNECTION_URL = "code from mongodb"
 mongoose.connect(CONNECTION_URL)
 .then(() => app.listen(PORT,() => {console.log(`server running on port ${PORT}`)}))
 .catch((err) => console.log(err.message))
